@@ -4,8 +4,9 @@ import {Provider}                               from "react-redux"
 import {createStore, applyMiddleware, compose}  from "redux"
 import App                                      from "./components/App"
 import reducers                                 from "./reducers"
+import reduxThunk                               from "redux-thunk"
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
-const store = createStore(reducers, composeEnhancers(applyMiddleware()))
+const store = createStore(reducers, composeEnhancers(applyMiddleware(reduxThunk)))
 ReactDom.render(
     <Provider store={store}>
         <App/>
