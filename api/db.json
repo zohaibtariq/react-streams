@@ -7,26 +7,14 @@
     },
     {
       "title": "gggg",
-      "description": "kkk",
+      "description": "kkkz",
       "id": 2
     },
     {
-      "title": "I created this stream",
-      "description": "This stream was created by me PATCH",
+      "title": "New Stream",
+      "description": "Valid content of streamy",
       "userId": "115691226050772091553",
       "id": 3
-    },
-    {
-      "title": "AAAAA",
-      "description": "ccccc",
-      "userId": "115691226050772091553",
-      "id": 4
-    },
-    {
-      "title": "New2",
-      "description": "B1",
-      "userId": "115691226050772091553",
-      "id": 5
     }
   ]
 }

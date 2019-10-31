@@ -2,7 +2,9 @@ import React            from "react"
 import {connect}        from "react-redux"
 import {fetchStreams}   from "./../../actions"
 import {Link}           from "react-router-dom"
+
 class StreamList extends React.Component {
+
     componentDidMount = () => {
         this.props.fetchStreams()
     }
@@ -56,13 +58,15 @@ class StreamList extends React.Component {
             </div>
         )
     }
+
 }
 
 const mapStateToProps = (state) => {
     return {
-        streams:Object.values(state.streams),
+        streams: Object.values(state.streams),
         currentUserId: state.auth.userId,
         isSignedIn: state.auth.isSignedIn
     }
 }
+
 export default connect(mapStateToProps, {fetchStreams})(StreamList)
