@@ -12,9 +12,15 @@
     },
     {
       "title": "New Stream",
-      "description": "Valid content of streamy",
+      "description": "Valid content of stream",
       "userId": "115691226050772091553",
       "id": 3
+    },
+    {
+      "title": "New Stream",
+      "description": "New Stream Description",
+      "userId": "115691226050772091553",
+      "id": 4
     }
   ]
 }
